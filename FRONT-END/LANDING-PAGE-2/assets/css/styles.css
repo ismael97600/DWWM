@@ -110,17 +110,20 @@ main h2 {
 
 .box {
   background: #fff;
-  padding: 25px;
   margin: 20px;
   border-radius: 12px;
   width: 32%;
   box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+.texte-box{
+  padding: 20px;
 }
 
 #temoignage{
   background: #ffffff;
    text-align: center;
    padding: 20px;
+
 }
 
 #formation{
@@ -128,7 +131,8 @@ main h2 {
    padding: 20px;
 }
 #formation img{
-  width: 60%;
+  width: 100%;
+
 }
 
 #inscription{
