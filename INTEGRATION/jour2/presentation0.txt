@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</title>Ma premier page</title>
+</head>
+<body style="background-color:lightblue;">
+
+<h1>Bienvenue</h1>
+<p>Mon texte ici.</P>
+
+
+
+
+</body>
+</html>

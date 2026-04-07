@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    /* centrer verticalement */
+    align-items: center;
+    /* centrer verticalement */
+    justify-content: center;
+    /* couleur de texte */
+    background: RED;
+    /* couleur de texte */
+    color: white;
+}
+.CardContent{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgb(16, 206, 190);
+    width: 20%;
+}
+
+.CardContent h3{
+    color: blue;
+    font-weight: bold;
+}
+
+.Card{
+    display: flex;
+    justify-content: center;
+}

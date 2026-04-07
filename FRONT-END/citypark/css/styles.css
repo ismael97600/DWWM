@@ -1,0 +1,40 @@
+header{
+    background-color: rgba(49, 73, 126, 0.76);
+    height: 140px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+h1{
+    text-align: center;
+    color: lawngreen(255,255,255);
+    margin: 0;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}  
+nav{ 
+    height: 40px;
+    background: #496bc9d5;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+section{
+    background-color: rgb(211, 203, 203);
+    padding: 2%;
+    margin: 3%;
+
+}
+
+section img{
+    max-width: 50%;
+    height: auto;
+}
+
+footer{ 
+    background: #223185;
+    height: 40px;
+    color: rgb(225, 236, 245);
+    text-align: center;
+    padding: 10px;
+}

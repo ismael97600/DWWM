@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+header{ 
+    height: 100px;
+    background: red;
+    display: flex;
+    /* centre sur le vertical */
+    text-align: center;
+    /* centre sur l'horizontal */
+    justify-content: center;
+}
+
+header p{ 
+    color: azure;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.flexbox, .Gridcontainer, .absolute, .floatContainer{
+    border: 1px solid rgb(28, 64, 182);
+    min-height: 300px;
+    border-radius: 10px;
+}
+
+.flexbox{
+    border: 2px solid royalblue ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.flexbox img{
+    width: 25%;
+    box-shadow: 5px 5px 20px rgb(28, 64, 182);
+}
+.section h2{
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+.Gridcontainer{
+    min-height: 200px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    place-items: center;
+}
+
+.Gridcontainer img{
+    width: 100%;
+
+}
+
+.absolute{
+position: relative;
+}
+
+
+
+#circle1{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    background: blueviolet;
+    top: 0;
+    right: 0;
+}
+
+#circle2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    background: blueviolet;
+    top: 0;
+    left: 0;
+}
+
+.floatContainer img{
+    width: 15%;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#img1{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 10;
+}
+
+#img2{
+    float: right;
+    margin-top: 20;
+    margin-left: 10px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.floatContainer blockquote{
+    text-align: justify;
+}
+
+footer{
+   margin-top: 10px;
+   background: rgb(28, 64, 182);
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: aliceblue;
+   font-weight: bold;
+
+}

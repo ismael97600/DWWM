@@ -1,0 +1,12 @@
+.header{
+    background-color: rgba(28, 192, 77, 0.76);
+    height: 140px;
+}
+h1{
+    text-align: center;
+    color: lawngreen(255,255,255);
+    margin: 0;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    text-shadow:5px -1px 6px #050586;
+}  

@@ -1,0 +1,9 @@
+Données :
+- Nombre d'éléments de la liste
+-liste
+
+1. saisir le nombre d'éléments dans une liste
+2. saisir la liste 
+3. saisir l'élément saisi dans la liste
+4. Rechercher d'élément saisie dans une liste 
+5. Afficher le résulta
