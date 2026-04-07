@@ -127,7 +127,9 @@ main h2 {
    background: #f3f4f5;
    padding: 20px;
 }
-
+#formation img{
+  width: 25%;
+}
 
 #inscription{
     text-align: center;
