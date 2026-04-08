@@ -1,0 +1,48 @@
+body{
+    background-color: crimson;
+
+    
+}
+
+  p{
+        font-size: 20px;
+    }
+    
+
+
+@media(max-width: 992px) {
+    body {
+        background: greenyellow;
+    }
+  p{
+        font-size: 15px;
+    }
+.barre{
+    background-color: brown;
+}
+}
+
+@media(max-width:720px) {
+     body{
+        background: rgb(29, 26, 204);
+
+        
+    }
+    p{
+        font-size: 10px;
+    }
+    .barre{
+        display: none;
+    }
+}
+
+.barre {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 5px;
+  padding: 100px;
+  height: 100%;
+  background-color: rgb(184, 192, 187);
+}
