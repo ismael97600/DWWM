@@ -1,3 +1,25 @@
 body{
-    background-color: blue;
+    background-color: rgb(47, 226, 196);
 }
+
+.contener{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.card{
+    text-align: center;
+    background-color: brown;
+    border-radius: 15px;
+    max-width:200px ;
+    margin: 10px;
+    margin: 10px;
+    padding: 20px 150px 20px 150px ;
+    
+}
+
+@media (max-wildth)

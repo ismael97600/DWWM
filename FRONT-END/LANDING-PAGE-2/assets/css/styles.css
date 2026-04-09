@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 
 /* HEADER */
 .header {
@@ -47,35 +50,27 @@ a{
 
 /* HERO (AMÉLIORÉ) */
 .hero {
-
   background: #1dc4ee;
-  padding: 50px;
-  border-radius: 12px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
 
-/* TEXTE HERO */
-.hero div {
-  flex: 1;
+.text{
+  padding: 20px;
 }
 
 .hero h1 {
   font-size: 42px;
-  margin-bottom: 20px;
 }
 
-.hero p {
-  max-width: 500px;
-  margin-bottom: 25px;
-}
+
 
 /* IMAGE HERO */
 .hero img {
-  flex: 1;
-  max-width: 400px;
+  max-width: 50%;
   border-radius: 12px;
 }
 
@@ -105,16 +100,24 @@ main h2 {
 /* CARDS */
 .flexbox {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
 .box {
+  width: 25%;
   background: #fff;
   margin: 20px;
   border-radius: 12px;
-  width: 32%;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0px 5px 15px rgba(185, 7, 7, 0.08);
 }
+
+.box img {
+  border-radius: 12px 12px 0 0;
+}
+
 .texte-box{
   padding: 20px;
 }
@@ -149,4 +152,45 @@ footer {
   color: #fff;
   text-align: center;
   padding: 25px;
+}
+
+
+
+@media (max-width: 750px){
+
+  .hero{
+    background: none;
+    flex-direction: column;
+    text-align: center;    
+    padding: 0;
+    
+
+  }
+
+  .nav{
+    display:grid;
+  }
+
+  .text{
+    background: #1dc4ee;
+  }
+
+  .hero img {    
+    margin: 20px;
+    max-width: 90%;
+    border-radius: 12px;
+  }
+
+  .flexbox{
+    flex-direction: column;
+  }
+
+  .box{
+    width: 100%;
+    max-width: 75%;
+    margin: 20px;
+  }
+  
+
+
 }
