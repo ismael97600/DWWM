@@ -22,4 +22,7 @@ body{
     
 }
 
-@media (max-wildth)
+    img {
+  max-width: 50%;
+  border-radius: 12px;
+} 
