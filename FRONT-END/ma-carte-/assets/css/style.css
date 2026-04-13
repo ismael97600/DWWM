@@ -1,0 +1,112 @@
+header {
+  background-color: #065255;
+  color: white;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+header h1 {
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #eb38be;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.cards .card {
+  border: 1px solid #065255;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+.cards .card h2 {
+  margin-top: 0;
+}
+.cards .card {
+  transition: 0.3s;
+  color: #065255;
+}
+.cards .card button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #065255;
+}
+.cards .card button:hover {
+  background-color: #eb38be;
+}
+.cards .card:hover {
+  transform: rotate(5deg);
+}
+.cards .card1 {
+  border: 1px solid rgba(21, 197, 159, 0.822);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+.cards .card1 h2 {
+  margin-top: 0;
+}
+.cards .card1 {
+  transition: 0.3s;
+  color: rgba(21, 197, 159, 0.822);
+}
+.cards .card1 button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(21, 197, 159, 0.822);
+}
+.cards .card1 button:hover {
+  background-color: rgb(216, 27, 74);
+}
+.cards .card1:hover {
+  transform: rotate(5deg);
+}
+.cards .card2 {
+  border: 1px solid rgb(28, 48, 223);
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+.cards .card2 h2 {
+  margin-top: 0;
+}
+.cards .card2 {
+  transition: 0.3s;
+  color: rgb(28, 48, 223);
+}
+.cards .card2 button {
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(28, 48, 223);
+}
+.cards .card2 button:hover {
+  background-color: red;
+}
+.cards .card2:hover {
+  transform: rotate(5deg);
+}/*# sourceMappingURL=style.css.map */

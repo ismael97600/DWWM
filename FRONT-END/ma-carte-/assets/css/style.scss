@@ -1,0 +1,84 @@
+$primary-color-1: #065255;
+$secondary-color-1: #eb38be;  
+
+$primary-color-2: rgba(21, 197, 159, 0.822);
+$secondary-color-2: rgb(216, 27, 74);  
+
+$primary-color-3: rgb(28, 48, 223);
+$secondary-color-3: red;  
+
+
+header {
+    background-color: $primary-color-1;
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    h1{
+        margin: 0;
+    }
+    nav{
+        ul{
+            list-style: none;
+            padding: 0;
+
+            li{
+                display: inline-block;
+                margin-right: 15px;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    &:hover{
+                       color: #eb38be;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@mixin card($primary-color, $secondary-color){ 
+    border: 1px solid $primary-color;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    h2{
+        margin-top: 0;
+    }
+    transition: 0.s;
+    color: $primary-color;
+    button{
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: $primary-color;
+        &:hover{
+            background-color: $secondary-color;
+        }
+    }
+    &:hover{
+        transform: rotate(5deg);
+    }
+}
+
+
+.cards{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    
+    .card{
+        @include card($primary-color-1, $secondary-color-1)
+    }
+    .card1{
+        @include card($primary-color-2, $secondary-color-2)
+    }
+    .card2{
+        @include card($primary-color-3, $secondary-color-3)
+    }
+    
+}
+
