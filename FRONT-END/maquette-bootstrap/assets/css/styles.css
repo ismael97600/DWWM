@@ -1,3 +1,6 @@
-header img{
-    background: ;
+header{
+    background: url(/assets/img/image.png) center/cover no-repeat;
+  height: 150px;
+  
 }
+
