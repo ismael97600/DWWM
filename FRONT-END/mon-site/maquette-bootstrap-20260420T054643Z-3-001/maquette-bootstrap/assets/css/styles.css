@@ -1,0 +1,21 @@
+header{
+    background: url(/assets/img/image-i.png) center/cover no-repeat;
+  height: 150px;
+  
+}
+
+.bg-yellow{
+background: yellow;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-contact{
+  background: rgb(32, 124, 211);
+}
+
+.bg-dange{
+background-color: rgb(66, 129, 224);
+}

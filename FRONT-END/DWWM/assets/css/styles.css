@@ -1,0 +1,11 @@
+header img{
+     width: 95px;
+     
+}
+.shadow{
+     box-shadow: rgb(0, 255, 213);
+}
+
+header{
+     background-color: rgb(36, 189, 189);
+}

@@ -1,0 +1,11 @@
+header img{
+     width: 95px;  
+}
+body{ 
+     background: url(/assets/img/image.png)
+ 
+}
+
+.bg-track{ 
+     background: rgb(102, 191, 194);
+}

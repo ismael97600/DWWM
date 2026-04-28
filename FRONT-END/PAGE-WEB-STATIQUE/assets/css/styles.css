@@ -1,0 +1,39 @@
+header img{
+     width: 95px;  
+}
+
+.hero{
+    background: url(/assets/img/ChatGPT\ Image\ 22\ avr.\ 2026\,\ 13_09_16.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100;
+}
+
+
+.bg-track{ 
+     background: rgb(23, 38, 179);
+}
+.hero img {
+  max-width: 50%;
+  border-radius: 12px;
+  margin-top: 0%;
+  left: 0%;
+}
+
+.rounded{ 
+    height: 95px;
+}
+
+.card{ 
+    min-height: 800px;
+    background: #618375;
+}
+
+section{
+    background: rgb(18, 219, 125);
+}
+
+.isma{ 
+background-color: antiquewhite;
+}
